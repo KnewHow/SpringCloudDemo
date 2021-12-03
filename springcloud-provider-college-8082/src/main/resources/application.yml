@@ -1,11 +1,11 @@
 server:
-  port: 8081
+  port: 8082
 spring:
   application.name: springcloud-provider-college
   datasource:
     username: root
     password: root123456
-    url: jdbc:mysql://127.0.0.1:3306/student_system_1?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    url: jdbc:mysql://127.0.0.1:3306/student_system_2?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
@@ -21,7 +21,7 @@ eureka:
     service-url:
       defaultZone: http://eureka.7001.com:7001/eureka/, http://eureka.7002.com:7002/eureka/
   instance:
-    instance-id: springcloud-provider-college-8081 #修改Eureka上的默认描述信息
+    instance-id: springcloud-provider-college-8082 #修改Eureka上的默认描述信息
 info: # info配置
-  app.name: springcloud-demo-provider-college-8081 # 项目的名称
+  app.name: springcloud-demo-provider-college-8082 # 项目的名称
   company.name: Knewhow # 公司的名称

@@ -11,6 +11,10 @@
         <module>springcloud-api</module>
         <module>springcloud-provider-college-8081</module>
         <module>springcloud-consumer-college-9001</module>
+        <module>springcloud-eureka-7001</module>
+        <module>springcloud-eureka-7002</module>
+        <module>springcloud-provider-college-8082</module>
+        <module>springcloud-provider-college-8083</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -29,14 +33,14 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>2020.0.4</version>
+                <version>Hoxton.SR8</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.6.1</version>
+                <version>2.3.3.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
